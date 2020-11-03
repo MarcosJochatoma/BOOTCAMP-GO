@@ -59,9 +59,79 @@
                             type="date"
                         >
                     </p>
+                    <p>
+                        <label>
+                            Contraseña:
+                        </label>
+                        <input
+                            placeholder="Ingresar contraseña"
+                            type="password"
+                        >
+                    </p>
                 </fieldset>
+                <fieldset>
+                    <legend>Datos adicionales</legend>
+                    <p>
+                        <label>
+                            Color favorito:
+                        </label>
+                        <input 
+                            type="color"
+                        >
+                    </p>
+                    <p>
+                        <label>
+                            Adjuntar foto:
+                        </label>
+                        <input
+                            type="file"
+                        >
+                    </p>
+                    <p>
+                        <label>
+                            Indicar el genero:
+                        </label>
+                        <input type="radio" name="genero"> Masculino
+                        <input type="radio" name="genero"> Femenino
+                        <input type="radio" name="genero"> No divulgar         
+                    </p>
+                    <p>
+                        <label>
+                            Cuentanos tus hobbies:
+                        </label>
+                        <input type="checkbox">Escuchar música
+                        <input type="checkbox">Leer un libro
+                        <input type="checkbox">Dotear
+                        <input type="checkbox">Montar bicicleta
+                        <input type="checkbox">Tocar un instrumento musical
+                    </p>
+                    <p>
+                        <label>
+                            Selecciona tu departamento:
+                        </label>
+                        <select>
+                            <option disabled selected>Selecciona tu ciudad</option>
+                            <option values="AR">Arequipa</option>
+                            <option values="CU">Cusco</option>
+                            <option values="TA">Tacna</option>
+                            <option values="CH">Chiclayo</option>
+                            <option values="LI">Lima</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Cuentanos de tí</label>
+                        <textarea rows="15" cols="68" placeholder="Escribe algo"></textarea>
+                    </p>
+                    <p>
+                        <label for="">
+                            Ingresa la cantidad de miembros de tu familia:
+                        </label>
+                        <input type="range">
+                    </p>
+                </fieldset>
+             <input type="submit" value="Enviar Formulario">
+             <input type="reset"  value="Limpiar Formulario">
             </form>
-
             
         </section>
     </main>
