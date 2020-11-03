@@ -1,0 +1,26 @@
+h2{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-color:lightblue;
+}
+
+p{
+    color:darkslateblue;
+}
+
+articule{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destacado{
+    text-decoration: underline;
+    color:yellow;
+}
+
+#contacto{
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
