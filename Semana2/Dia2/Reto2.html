@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Reto2.css"/>
+    <title>Selectores CSS</title>
+</head>
+<head>
+    <h1>Selectores CSS</h1>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form>
+        <fieldset>
+            <legend>Formulario de Creacuón de un curso</legend>
+            <p>
+                <label for ="Nombre">
+                    Nombre del Curso:
+                </label>
+                <input 
+                    placeholder="Ej.: Curso"
+                    type="text"
+                    id="nombres"
+                >
+            </p>
+            <p>
+                <label>Precio del Curso:</label>
+                <input
+                    placeholder="Precio en Soles"
+                    type="number"
+                >
+            </p>
+            <p>
+                <label>Fecha de Inicio:</label>
+                <input
+                    type="date"
+                >
+            </p>
+            <p>
+                <label>
+                    Correo del docente:
+                </label>
+                <input
+                    placeholder="@tecsup.edu.pe"
+                    type="email"
+                >
+            </p>
+            <p>
+                <label>
+                    Elije el Turno:
+                </label>
+                <input type="radio" name="turno"> Mañana
+                <input type="radio" name="turno"> Tarde
+                <input type="radio" name="tuirno"> Noche         
+            </p>
+            <p>
+                <label>
+                    Tipo de Pago:
+                </label>
+                <input type="radio" name="pago"> En cuotas
+                <input type="radio" name="pago"> Directo
+            </p>
+            <p>
+                <label>
+                    Idiomas del curso:
+                </label>
+                <input type="checkbox">Español
+                <input type="checkbox">Ingles
+                <input type="checkbox">Portugués
+            </p>
+            <P>
+            <label>
+                Nivel del curso:
+            </label>
+            <select>
+                <option disabled selected>-- Seleccione --</option>
+                <option values="BA">Basico</option>
+                <option values="IN">Intermedio</option>
+                <option values="AV">Avanzado</option>
+            </select>
+            </p>
+            <p>
+                <label>Descripcion del curso</label>
+                <textarea rows="15" cols="68" placeholder="Descripcion general del curso"></textarea>
+            </p>
+            <p>
+                <label>
+                    Video Introducción::
+                </label>
+                <input
+                    type="file"
+                >
+            </p>
+            <p>
+                <label>
+                    Color base del curso:
+                </label>
+                <input 
+                    type="color"
+                >
+            </p>
+
+            <input type="submit" value="Crear Curso">
+            <input type="reset"  value="Limpiar Formulario">
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
