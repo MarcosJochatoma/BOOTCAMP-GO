@@ -1,0 +1,27 @@
+/*Primer Hijo con LI*/
+li:first-child{
+    color: red;
+    text-decoration: underline;
+}
+/*Hijo del múmero especifico*/
+li:nth-child(3){
+    color: gray;
+    font-weight: bold;
+}
+/*El último hijo*/
+li:last-child{
+    color: green    ;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.tabla1 tbody tr:nth-child(even){
+    background-color: salmon;
+}
+
+.tabla2 thead tr th:nth-of-type(2){
+    background-color: red;
+    color: white ;
+}

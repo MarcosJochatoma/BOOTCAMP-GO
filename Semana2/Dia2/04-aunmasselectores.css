@@ -1,0 +1,13 @@
+ul li{
+    text-decoration: underline;
+    color: red;
+}
+
+ol>li{
+    color: steelblue;
+}
+
+h1, h2{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
