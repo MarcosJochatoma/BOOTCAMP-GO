@@ -25,3 +25,19 @@ tbody tr:nth-child(odd){
     background-color: red;
     color: white ;
 }
+
+p:not(#excepcion){
+    background-color: seagreen;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    background-color: turquoise;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+}
+input[type="number"]::placeholder{
+    color:red
+}

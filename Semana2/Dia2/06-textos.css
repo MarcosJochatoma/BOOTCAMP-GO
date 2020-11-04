@@ -1,0 +1,31 @@
+/*Maneras para  traer una fuenta, la primera  ya se importanto el archivo tipo link, pero esta sujeto a que este conectado en internet.
+el otro es descargando el archivo y trayendo con el font-face*/
+@font-face{
+    font-family: "logotext";
+    src: url("./Antheme-Regular.ttf")
+}
+.titulo{
+    font-family: 'Homemade Apple', Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: "logotext";
+}
+.parrafo1{
+    font-family: 'Homemade Apple';
+    font-weight: bold;
+}
+.parrafo2{
+    text-align: center;
+    line-height: 60px;
+}
+.parrafo3{
+    font-family: 'Homemade Apple';
+    font-weight: 100;
+    word-spacing: 25px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
