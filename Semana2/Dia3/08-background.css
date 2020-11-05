@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+.section1{
+    background-color: royalblue;
+    height: 300px;
+}
+
+.section2{
+    height: 500px;
+    background-color: salmon;
+    background-image: url('./Fondo.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+.section3{
+    height: 1000px;
+    background-image:url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    
+}
+
+.section4, .section5{
+    height: 500px;
+}
+
+.section4{
+    background: linear-gradient(to top, red, blue);
+}
+
+.section5{
+    background-color: green;;
+    background-image: radial-gradient(circle, red, yellow);
+}
+
