@@ -1,0 +1,28 @@
+
+*{
+    border:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .contenedor{
+    width:500px;
+    /*  */
+    margin:0 auto;
+    
+  }
+
+  input{
+    height:40px;
+    background-color: white;   
+    width:100%;
+    margin:20px 0 0 0;
+ }
+
+  h1{
+      text-align: center;
+  }
+
+  
