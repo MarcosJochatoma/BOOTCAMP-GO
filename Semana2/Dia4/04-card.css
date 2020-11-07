@@ -36,3 +36,13 @@ body{
     left: calc(50% - 50px);
     bottom:-50px;   
 }
+
+.contenedor__boton{
+    margin: 35px 0 0 0;
+    border: none;
+    
+}
+
+
+
+
