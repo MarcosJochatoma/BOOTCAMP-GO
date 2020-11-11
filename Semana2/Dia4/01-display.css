@@ -1,35 +1,38 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
 
 body{
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .section1{
-    width: 500px;
-    height: 500px;
-    border: 2px solid orangered;
-
+  width:500px;
+  height:500px;
+  border:2px solid orangered;
+  margin:0;
 }
 
-.articule1{
-    width: 20%;
-    height: 250px;
-    background-color: rgb(210, 250, 250);
-    display: inline-block;
-    margin: 0;
+.article1{
+  width:20%;
+  height:250px;
+  background-color: lightseagreen;
+  display:inline-block;
+  margin:0;
 }
 
-.articule2{
-    width: 250px;
-    height: 200px;
-    background-color: yellow;
-    display: inline-block;
+.article2{
+  width:79%;
+  height:200px;
+  /* margin:5px;
+  padding:4px;
+  border:1px solid red; */
+  background-color:yellow ;
+  display:inline-block;
 }
 
 label{
-    border: 1px solid red;
+  border:1px solid red;
 }
