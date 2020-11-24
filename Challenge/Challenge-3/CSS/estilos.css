@@ -182,10 +182,12 @@ li:hover{
     position: center;
 }
 
+
+
 form>input{
     margin-left: 40px;
     padding-left: 30px;
-    width: 820px;
+    width: 1050px;
     height: 50px;
     border-radius: 15px;
     border: none;
